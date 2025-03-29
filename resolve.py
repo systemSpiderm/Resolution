@@ -245,7 +245,7 @@ def resolve(sentences : list[tuple[str]], resolvableList : list[tuple]) :
 
 def test_basicQuestion1():
     print("test for alpineclub.txt")
-    file_path = r'2ndGrade\\AI\\resolve\\alpineclub.txt'
+    file_path = r'alpineclub.txt'
     file_content = read_file_content(file_path)
     sentences = read_and_parse_file(file_content)
     resolvableList = getResolvableList(sentences)
@@ -253,7 +253,7 @@ def test_basicQuestion1():
     
 def test_basicQuestion2():
     print("test for blockworld.txt")
-    file_path = r'2ndGrade\\AI\\resolve\\blockworld.txt'
+    file_path = r'blockworld.txt'
     file_content = read_file_content(file_path)
     sentences = read_and_parse_file(file_content)
     resolvableList = getResolvableList(sentences)
@@ -261,7 +261,7 @@ def test_basicQuestion2():
     
 def test_additionalQuestion1():
     print("test for additionalQuestion1.txt")
-    file_path = r'2ndGrade\\AI\\resolve\\additionalQuestion1.txt'
+    file_path = r'additionalQuestion1.txt'
     file_content = read_file_content(file_path)
     sentences = read_and_parse_file(file_content)
     resolvableList = getResolvableList(sentences)
@@ -269,7 +269,7 @@ def test_additionalQuestion1():
     
 def test_additionalQuestion2():
     print("test for additionalQuestion2.txt")
-    file_path = r'2ndGrade\\AI\\resolve\\additionalQuestion2.txt'
+    file_path = r'additionalQuestion2.txt'
     file_content = read_file_content(file_path)
     sentences = read_and_parse_file(file_content)
     resolvableList = getResolvableList(sentences)
